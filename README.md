@@ -2,7 +2,7 @@
 
 An in-browser playground for JavaScript, TypeScript, React and jQuery. Write across multiple files, import between them, and see console output and a live DOM preview side by side — with no backend and no code leaving the browser.
 
-**[Live demo](#)** · [Screenshots](#screenshots)
+**[Live demo](https://runjs.developerbudy.com/)** · [Screenshots](#screenshots)
 
 ---
 
@@ -138,7 +138,7 @@ These are deliberate trade-offs, not oversights:
 
 ## Screenshots
 
-<!-- Add screenshots here: dark theme with React starter, settings modal, multi-file tabs -->
+![alt text](<Screenshot 2026-09-15 135806.png>)
 
 ## License
 
