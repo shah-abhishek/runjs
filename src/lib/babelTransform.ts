@@ -23,6 +23,6 @@ export function transformFile(code: string, filename: string, target: TargetVers
   if (isJsx) presets.push("react");
 
   const result = Babel.transform(code, { presets, filename });
-  if (!result.code) throw new Error(`No output produced for ${filename}`);
+  if (!result?.code) throw new Error(`No output produced for ${filename}`);
   return result.code;
 }

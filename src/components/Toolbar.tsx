@@ -1,17 +1,16 @@
 // src/components/Toolbar.tsx
 import type { LanguageMode, TargetVersion, Theme } from "../types/modes";
 import { TARGET_VERSION_LABELS } from "../types/modes";
-import type { ThemeTokens } from "../lib/themeTokens";
 
 interface Props {
   mode: LanguageMode;
   target: TargetVersion;
   theme: Theme;
-  tokens: ThemeTokens;
   onModeChange: (m: LanguageMode) => void;
   onTargetChange: (t: TargetVersion) => void;
   onThemeChange: (t: Theme) => void;
   onRun: () => void;
+  onFormat: () => void; 
 }
 
 const MODE_LABELS: Record<LanguageMode, string> = {
